@@ -1,0 +1,8 @@
+{
+  "name": "touched-files",
+  "version": "0.1.0",
+  "description": "Keeps a running list of every file Claude edited or wrote this session: a count in the status line and a /touched pane",
+  "author": { "name": "Sajid Rahman" },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

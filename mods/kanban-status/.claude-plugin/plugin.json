@@ -1,0 +1,16 @@
+{
+  "name": "kanban-status",
+  "version": "0.1.0",
+  "description": "Shows your Obsidian Kanban board (BOARD.md) in the status line, with a /board pane listing every card",
+  "author": { "name": "Sajid Rahman" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "file": {
+      "type": "string",
+      "title": "Board file",
+      "description": "Path to the Kanban markdown file, relative to the session folder",
+      "default": "BOARD.md"
+    }
+  }
+}

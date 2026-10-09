@@ -1,0 +1,7 @@
+{
+  "name": "secret-guard",
+  "version": "0.1.0",
+  "description": "Stops Claude from reading or editing .env files, private keys and credential files, including through symlinks and shell commands",
+  "author": { "name": "Sajid Rahman" },
+  "license": "MIT"
+}

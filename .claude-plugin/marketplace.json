@@ -1,0 +1,25 @@
+{
+  "name": "claude-studio-mods",
+  "description": "Small, tested Claude Code mods: a secrets guard, a changed-files tracker, and an Obsidian Kanban status line",
+  "owner": {
+    "name": "Sajid Rahman",
+    "url": "https://github.com/Sajid-Rahman0126"
+  },
+  "plugins": [
+    {
+      "name": "secret-guard",
+      "source": "./mods/secret-guard",
+      "description": "Stops Claude from reading or editing .env files, private keys and credential files"
+    },
+    {
+      "name": "touched-files",
+      "source": "./mods/touched-files",
+      "description": "A running list of every file Claude changed this session"
+    },
+    {
+      "name": "kanban-status",
+      "source": "./mods/kanban-status",
+      "description": "Your Obsidian Kanban board in the status line, with a /board pane"
+    }
+  ]
+}
